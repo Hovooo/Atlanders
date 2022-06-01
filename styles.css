@@ -10,6 +10,8 @@ body {
   background-size: 200%;
   background-repeat: no-repeat;
   background-color: #071832;
+  height: 100%;
+  overflow: hidden;
 }
 
 .info {
