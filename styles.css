@@ -10,6 +10,7 @@ body {
   background-size: 200%;
   background-repeat: no-repeat;
   background-color: #071832;
+  height: 100%;
 }
 
 .info {
@@ -97,6 +98,27 @@ body {
 
   .description {
     margin-top: -10px;
+  }
+  .coming-soon {
+    margin-top: 20px;
+    border: solid 2px white;
+    border-radius: 50px;
+    padding: 8px 24px 8px 24px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .info {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .description {
+    margin-top: -15px;
   }
   .coming-soon {
     margin-top: 20px;
