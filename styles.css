@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Khula", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
 }
 
 body {
@@ -118,7 +119,7 @@ body {
   }
 
   .description {
-    margin-top: -15px;
+    margin-top: -10px;
   }
   .coming-soon {
     margin-top: 20px;
